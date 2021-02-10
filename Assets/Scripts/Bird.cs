@@ -52,7 +52,7 @@ public class Bird : MonoBehaviour
             else
             {
                 poliCol.enabled = false;
-                spritey.color = new Color(5, 7, 7, 0.5f);
+                spritey.color = new Color(1, 0, 0, 0.5f);
                 StartCoroutine(EnableBox(1.0f));
             }
         } else {
